@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background-color: #BBDB88;
+}
+h1{
+    margin-left: 350px;
+    color: #8763e9;
+    font: normal 50pt arial ;
+    background-position: right;
+}
+h2{
+    margin-left: 150px;
+}
+p{
+    margin-left: 100px;
+}
