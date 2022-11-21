@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <h1>cadasrando </h1>
+    </header>
+    <hr>
+    <main>
+        <section id="cadastro" class="001 002 003">
+         <h2>Seção de cadastro:</h2>
+         <p>
+            Digite o nome: 
+            <input type="text" name="inp-no" id="inp-no">
+        </p>
+
+         <p>
+            Digite a senha: 
+            <input type="number" name="inp-sen" id="inp-sen">
+        </p>
+     
+
+        <p>
+            <input type="button" value="clique para cadastrar" onclick="cadastrar()">
+        </p>
+        </section>
+
+        <hr>
+
+        <section id="buscar" class="001 002 003">
+        <h2>Seção de busca</h2>
+        <p id="res">
+        </p>
+
+         <p>Digite o nome: 
+            <input type="text" name="inp-b" id="inp-b">
+        </p>
+
+         <p>
+            <input type="button" value="clique para buscar" onclick="buscar_c()"></p>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy;criado por Ronald Pinheiro</p>
+    </footer>
+    <script src="cadastro.js"></script>
+</body>
+</html>

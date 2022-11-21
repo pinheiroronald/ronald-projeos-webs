@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste cadatro</title>
+    <link rel="stylesheet" href="meu.css">
+</head>
+<body>
+    <header>
+        <h1>Área de Cadastro</h1>
+    </header>
+    <main>
+        <hr>
+
+      <section>
+        <p>
+            Nome:<input type="text" name="inp-nome" id="inp-nome"><br>
+            Senha:<input type="number" name="inp-numero"id="inp-numero"><br>
+            <input class="but" type="button" value="Cadastrar" onclick="cadastrar()">
+ 
+         </p>
+      </section>
+        <hr>
+        <section>
+            <p id="res"></p>
+            <p>
+            <input class="but" type="button" value="Mostrar Cadastros" onclick="m_cadastros()">
+            <input type="button" value="Esconder cadastros" class="but" onclick="esconder()">
+        </p>
+        
+        </section>
+         <hr>
+         <section>
+             <p>
+                 <input type="text" name="imp-nome2" id="inp-nome2"> <br>
+            
+                <input class="but" type="button" value="Procurar cadastro" onclick="p_cadastro()">
+            </p>
+            <p id="resb"></p>
+         </section>
+      
+
+    </main>
+   
+    <footer>
+        <p>&copy;Criado por Ronald Pinheiro</p>
+    </footer>
+    <script src="meu.js">
+        
+    </script>
+</body>
+</html>

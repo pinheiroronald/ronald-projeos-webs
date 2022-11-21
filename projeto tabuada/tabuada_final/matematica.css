@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+  font-family: sans-serif;
+  background-color:  #FED6A5;
+  
+  
+
+}
+header{
+  text-align: center;
+
+  
+}
+.oob{
+  padding: 3px 3px 3px ;
+  text-align: center;
+  
+}
+input{
+  margin-top: 2vw;
+  font-size: 100%;
+  padding: 2px 2px 2px ;
+}
+
+
+article{
+  background-color: rgba(240, 248, 255, 0.906);
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border: 2px solid rgba(0, 0, 0, 0.432) ;
+  background-position: center;
+}
+.ood{
+  background-image: url('imagens/tabuada.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vw;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
